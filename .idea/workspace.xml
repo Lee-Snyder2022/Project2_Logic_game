@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="876763f1-0e49-4946-bcb3-20bafe1b3fd7" name="Changes" comment="">
+    <list default="true" id="876763f1-0e49-4946-bcb3-20bafe1b3fd7" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicGame.java" afterDir="false" />
+    </list>
+    <list id="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" name="Changes by julia" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+    </list>
+    <list id="186d5202-73cf-47fe-a1f4-6f35df273867" name="Changes by Katherine" comment="">
       <change beforePath="$PROJECT_DIR$/src/LogicPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +30,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Board.java">
+      <ranges>
+        <range start1="0" end1="0" start2="0" end2="1" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="1" end1="2" start2="2" end2="3" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="4" end1="5" start2="5" end2="6" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="6" end1="7" start2="7" end2="8" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="8" end1="8" start2="9" end2="10" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="10" end1="11" start2="12" end2="13" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="22" end1="23" start2="24" end2="25" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="24" end1="25" start2="26" end2="27" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="27" end1="28" start2="29" end2="30" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="30" end1="31" start2="32" end2="33" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="32" end1="33" start2="34" end2="35" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="38" end1="39" start2="40" end2="41" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676396177460</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1676506418122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676506418122</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
