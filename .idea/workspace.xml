@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="876763f1-0e49-4946-bcb3-20bafe1b3fd7" name="Changes" comment="Coding Day 1 v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicGame.java" afterDir="false" />
     </list>
-    <list id="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" name="Changes by julia" comment="">
+    <list id="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" name="Changes by julia" comment="Changes by julia">
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
     </list>
-    <list id="186d5202-73cf-47fe-a1f4-6f35df273867" name="Changes by Katherine" comment="">
+    <list id="186d5202-73cf-47fe-a1f4-6f35df273867" name="Changes by Katherine" comment="Changes by Katherine" />
+    <list id="c44ac4be-d0cb-4462-ab23-433de2b3a733" name="Changes by kfoley" comment="">
       <change beforePath="$PROJECT_DIR$/src/LogicPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676556957325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Coding Day 1 v2">
+      <created>1676557054006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676557054006</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes by Katherine">
+      <created>1676557097616</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676557097616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +114,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Coding Day 1" />
     <MESSAGE value="Coding Day 1 v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding Day 1 v2" />
+    <MESSAGE value="Changes by julia" />
+    <MESSAGE value="Changes by Katherine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Katherine" />
   </component>
 </project>
