@@ -8,7 +8,7 @@ public class LogicPanel extends JPanel implements MouseListener {
     private JPanel entryPanel;
     private JPanel bottomPanel;
 
-    int categories;
+    int grids;
     int people;
 
     private GameSquare[][][] gameGrid;
@@ -21,16 +21,16 @@ public class LogicPanel extends JPanel implements MouseListener {
         this.people = people;
     }
 
-    public void setCategories(int categories) {
-        this.categories = categories;
+    public void setGrids(int grids) {
+        this.grids = grids;
     }
 
     public LogicPanel(){
         this(3,4);
     }
 
-    public LogicPanel(int c, int p){
-        categories = c;
+    public LogicPanel(int g, int p){
+        grids = g;
         people = p;
 
         setLayout(new GridBagLayout());
@@ -43,13 +43,13 @@ public class LogicPanel extends JPanel implements MouseListener {
 
         add(entryPanel);
 
-        gameGrid = new GameSquare[people][people][categories];
+        gameGrid = new GameSquare[people][people][grids];
         for (int i = 0; i < people; i++) {
             for (int j = 0; j < people; j++) {
-                for (int k = 0; k < categories; k++) {
+                for (int k = 0; k < grids; k++) {
                     gameGrid[i][j][k] = new GameSquare();
-                    layoutConstraints.gridx = i + determineXOffset(k, people) * 50;
-                    layoutConstraints.gridy = j + determineYOffset(k, people) * 50;
+                    layoutConstraints.gridx = i + determineXOffset(k, grids) * people;
+                    layoutConstraints.gridy = j + determineYOffset(k, grids) * people;
                     entryPanel.add(gameGrid[i][j][k], layoutConstraints);
                     gameGrid[i][j][k].addMouseListener(this);
                 }
@@ -83,20 +83,23 @@ public class LogicPanel extends JPanel implements MouseListener {
     @Override
     public void mouseExited(MouseEvent e) {}
 
-    private int determineXOffset(int k, int people) {
-        while (k >= people) {
-            k = k % people;
-            people--;
+    private int determineXOffset(int k, int g) {
+        g--;
+        while (k >= g) {
+            k = k - g;
+            g--;
         }
         return k;
     }
 
-    private int determineYOffset(int k, int people) {
-        while (k >= people) {
-            while (k >= people)
-                k = k - people;
-            people--;
+    private int determineYOffset(int k, int g) {
+        int loop = 0;
+        g--;
+        while (k >= g) {
+            k = k - g;
+            g--;
+            loop++;
         }
-        return k;
+        return loop;
     }
 }
