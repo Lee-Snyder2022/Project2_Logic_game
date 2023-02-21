@@ -1,15 +1,29 @@
 public class Cell {
     private int mark;
-    private int status;
-    private boolean correct;
+    private boolean status;
+    //Keeps track of whether the cell has been filled in by the player or computer
+    private boolean autofilled;
+    //Holds the correct value for the cell
+    private int correct;
 
-    public Cell(){
-        this.mark = mark;
+    public Cell(int correct){
+        autofilled = false;
+        this.correct = correct;
+        status = false;
+        mark = 0;
     }
 
-    /*public Cell(){
-        this(**);
-    }*/
+    public Cell(){
+        this(0);
+    }
+
+    public void setAutofilled(boolean autofilled) {
+        this.autofilled = autofilled;
+    }
+
+    public boolean isAutofilled() {
+        return autofilled;
+    }
 
     public void setMark(int mark) {
         this.mark = mark;
@@ -19,19 +33,41 @@ public class Cell {
         return mark;
     }
 
-    public void setStatus(int status) {
+    public void setStatus(boolean status) {
         this.status = status;
     }
 
-    public int getStatus() {
+    public boolean getStatus() {
         return status;
     }
 
-    public boolean isCorrect() {
+    public void setCorrect(int correct) {
+        this.correct = correct;
+    }
+
+    public int getCorrect() {
         return correct;
     }
 
-    public void setCorrect(boolean correct) {
-        this.correct = correct;
+    //Checks if the cell is set to its correct value
+    public boolean isCorrect(){
+        if(mark == correct){
+            return true;
+        }
+        else {
+            status = true;
+            mark = 0;
+            return false;
+        }
+    }
+
+    //Cycles the cell between values.
+    public void increment(){
+        if(mark < 2){
+            mark = mark +1;
+        }
+        else if(mark == 2){
+            mark = 0;
+        }
     }
 }

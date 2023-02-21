@@ -282,7 +282,7 @@ public class LogicGame implements ActionListener {
         game = new Board(grids);
     }
     public boolean checkSolution(){
-        return true;
+        return game.checkBoardSolved();
     }
 
     public void actionPerformed(ActionEvent e) {
