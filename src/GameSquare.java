@@ -19,25 +19,19 @@ public class GameSquare extends JComponent {
     }
 
 
-    public GameSquare(int x, int y, int s){
+    public GameSquare(int x, int y, int s) {
         x_pos = x;
         y_pos = y;
         side = s;
-        area = new Rectangle2D.Double(x_pos,y_pos,side,side);
-        circle = new Ellipse2D.Double(x_pos,y_pos,side,side);
+        area = new Rectangle2D.Double(x_pos, y_pos, side, side);
+        circle = new Ellipse2D.Double(x_pos, y_pos, side, side);
         backgroundColor = Color.WHITE;
         borderColor = Color.BLACK;
         state = 0;
     }
 
-    public void incrementState() {
-        if (state == 0) {
-            state = 1;
-        } else if (state == 1) {
-            state = 2;
-        } else if (state == 2) {
-            state = 0;
-        }
+    public void setState(int s) {
+        state = s;
     }
 
     @Override

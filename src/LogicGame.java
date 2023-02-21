@@ -1,19 +1,93 @@
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class LogicGame {
+public class LogicGame implements ActionListener {
     private int gameTime;
-    private JFrame gameFrame;
-    private LogicPanel gamePanel;
-    private JPanel cluePanel;
+    private int people;
+    private int categories;
+
     private ArrayList<Clue> clueList;
+
+    private JFrame gameFrame;
+    private JPanel mainPanel;
+    private JPanel rightPanel;
+    private JPanel cluePanel;
     private JPanel storyPanel;
-    public LogicGame(){
+
+    private JTextArea clueTextArea;
+    private JTextArea storyTextArea;
+
+    private JButton newGameButton;
+
+    private Board game;
+
+    public LogicGame() {
+        this(3,4);
+    }
+
+    public LogicGame(int peop, int cat){
+        people = peop;
+        categories = cat;
+        startGame(people, categories);
+
+        gameFrame = new JFrame();
+        mainPanel = new LogicPanel(people, categories, game);
+        rightPanel = new JPanel(new GridBagLayout());
+        cluePanel = new JPanel();
+        storyPanel = new JPanel();
+
+        clueTextArea = new JTextArea();
+        storyTextArea = new JTextArea();
+
+        gameFrame.setTitle("Logic Game!");
+
+        clueTextArea.setColumns(30);
+        clueTextArea.setRows(10);
+        String clueString = "";
+        for (Clue c: clueList){
+            clueString += c + "\n\n";
+        }
+        clueTextArea.setText(clueString);
+        clueTextArea.setEditable(false);
+        storyTextArea.setColumns(30);
+        storyTextArea.setRows(10);
+        storyTextArea.setText("Story goes here\n\n\n\n\nOh man so much story\n\n\n\n\nMuch Story, So Great, Wau\n\n\n\n\nYes I'm testing the scroll functionality");
+        storyTextArea.setEditable(false);
+
+        gameFrame.add(mainPanel, BorderLayout.CENTER);
+        gameFrame.add(rightPanel, BorderLayout.EAST);
+
+        GridBagConstraints layoutConstraints = new GridBagConstraints();
+        layoutConstraints.gridx = 0;
+        layoutConstraints.gridy = 0;
+        rightPanel.add(cluePanel, layoutConstraints);
+        layoutConstraints.gridy = 1;
+        rightPanel.add(storyPanel, layoutConstraints);
+        JScrollPane clueScrollPane = new JScrollPane(clueTextArea);
+        JScrollPane storyScrollPane = new JScrollPane(storyTextArea);
+
+        cluePanel.add(clueScrollPane);
+        storyPanel.add(storyScrollPane);
+
+        newGameButton = new JButton();
+        newGameButton.setText("New Game");
+        gameFrame.add(newGameButton,BorderLayout.SOUTH);
+        newGameButton.addActionListener(this);
+
+
+        gameFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        gameFrame.pack();
+        gameFrame.setVisible(true);
 
     }
-    public void startGame(int people, int values){
-        int gridCount = (values*(values+1))/2;
+
+    public void startGame(int people, int categories){
+        int gridCount = (categories*(categories-1))/2;
+
         ArrayList<Cell[][]> grids = new ArrayList<>();
         for(int i = 0; i <gridCount; i++){
             grids.add(new Cell[people][people]);
@@ -209,5 +283,21 @@ public class LogicGame {
     }
     public boolean checkSolution(){
         return true;
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == newGameButton) {
+            startGame(people, categories);
+
+            gameFrame.remove(mainPanel);
+            mainPanel = new LogicPanel(people, categories, game);
+            gameFrame.add(mainPanel, BorderLayout.CENTER);
+            String clueString = "";
+            for (Clue c : clueList) {
+                clueString += c + "\n\n";
+            }
+            clueTextArea.setText(clueString);
+            storyTextArea.setText("Story goes here\n\n\n\n\nOh man so much story\n\n\n\n\nMuch Story, So Great, Wau\n\n\n\n\nYes I'm testing the scroll functionality");
+        }
     }
 }
