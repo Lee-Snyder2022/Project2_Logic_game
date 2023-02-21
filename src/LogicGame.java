@@ -18,20 +18,29 @@ public class LogicGame {
         for(int i = 0; i <gridCount; i++){
             grids.add(new Cell[people][people]);
         }
-        ArrayList<Clue> clues = new ArrayList<>();
+        clueList = new ArrayList<>();
         Random rand = new Random();
-        for (Cell[][]g:grids) {
-            for (Cell[] cs:g) {
-                for (Cell c:cs) {
-                    c = new Cell();
+        //for (Cell[][]g:grids) {
+            for (int i = 0; i < people; i++) {
+                for (int j = 0; j < people; j++) {
+                    for (int k = 0; k < gridCount; k++) {
+                        grids.get(k)[i][j] = new Cell(0);
+                    }
                 }
             }
-        }
+            /*for (Cell[] cs:g) {
+                for (Cell c:cs) {
+                    c = new Cell(0);
+                }
+            }*/
+        //}
+        boolean complete;
         do{
             int type = rand.nextInt(4);
             int randGrid = rand.nextInt(gridCount);
+            System.out.println(randGrid);
             Cell[][] grid = grids.get(randGrid);
-            Clue candidate = new Clue(type, people);
+            Clue candidate = new Clue(type, people, randGrid);
             int X1 = rand.nextInt(people);
             int X2 = rand.nextInt(people);
             int Y = rand.nextInt(people);
@@ -120,20 +129,55 @@ public class LogicGame {
                     System.out.println("error");
             }
             if(valid){
-                clues.add(candidate);
+                clueList.add(candidate);
             }
-            for(Cell[][] g:grids){
+            for(Cell[][] g:grids){ //Check every horizontal for exactly 1 empty
                 int slot = 0;
-                int last;
+                Cell last = null;
                 for (int i = 0; i < people; i++) {
                     for (int j = 0; j < people; j++) {
                         if(g[i][j].getCorrect() == 0){
                             slot += 1;
+                            last = g[i][j];
+                        } else if (g[i][j].getCorrect() == 2) {
+                            slot = 2;
+                        }
+                    }
+                    if(slot == 1){
+                        last.setCorrect(2);
+                    }
+                    slot = 0;
+                }
+            }
+            for(Cell[][] g:grids){ //Check the verticals
+                int slot = 0;
+                Cell last = null;
+                for (int j = 0; j < people; j++) {
+                    for (int i = 0; i < people; i++) {
+                        if(g[i][j].getCorrect() == 0){
+                            slot += 1;
+                            last = g[i][j];
+                        } else if (g[i][j].getCorrect() == 2) {
+                            slot = 2;
+                        }
+                    }
+                    if(slot == 1){
+                        last.setCorrect(2);
+                    }
+                    slot = 0;
+                }
+            }
+            complete = true;
+            for(Cell[][] g:grids){ //Check if board is complete
+                for (int i = 0; i < people; i++) {
+                    for (int j = 0; j < people; j++) {
+                        if(g[i][j].getCorrect() == 0){
+                            complete = false;
                         }
                     }
                 }
             }
-        }while (false);
+        }while (!complete);
         game = new Board(grids);
     }
     public boolean checkSolution(){
