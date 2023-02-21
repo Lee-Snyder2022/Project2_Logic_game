@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="876763f1-0e49-4946-bcb3-20bafe1b3fd7" name="Changes" comment="Coding Day 4">
+    <list default="true" id="876763f1-0e49-4946-bcb3-20bafe1b3fd7" name="Changes" comment="Coding Day 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicGame.java" afterDir="false" />
     </list>
     <list id="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" name="Changes by julia" comment="Changes by julia">
@@ -15,7 +13,7 @@
       <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicGame.java" afterDir="false" />
     </list>
-    <list id="186d5202-73cf-47fe-a1f4-6f35df273867" name="Changes by Katherine" comment="Changes by Katherine">
+    <list id="186d5202-73cf-47fe-a1f4-6f35df273867" name="Changes by Katherine" comment="Changes">
       <change beforePath="$PROJECT_DIR$/src/GameSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicPanel.java" afterDir="false" />
@@ -39,6 +37,39 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/LogicGame.java">
+      <ranges>
+        <range start1="1" end1="1" start2="1" end2="4" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="4" end1="5" start2="7" end2="8" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="6" end1="6" start2="9" end2="14" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="7" end1="8" start2="15" end2="17" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="9" end1="10" start2="18" end2="18" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="11" end1="12" start2="19" end2="84" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="14" end1="16" start2="86" end2="90" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="22" end1="36" start2="96" end2="103" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="38" end1="39" start2="105" end2="106" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="40" end1="41" start2="107" end2="107" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="48" end1="48" start2="114" end2="115" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="51" end1="52" start2="118" end2="119" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="65" end1="66" start2="132" end2="133" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="81" end1="81" start2="148" end2="150" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="89" end1="90" start2="158" end2="159" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="93" end1="94" start2="162" end2="166" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="95" end1="95" start2="167" end2="169" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="98" end1="98" start2="172" end2="174" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="100" end1="101" start2="176" end2="177" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="105" end1="107" start2="181" end2="186" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="110" end1="110" start2="189" end2="192" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="111" end1="113" start2="193" end2="200" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="116" end1="117" start2="203" end2="204" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="120" end1="120" start2="207" end2="208" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="122" end1="123" start2="210" end2="214" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="133" end1="167" start2="224" end2="269" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="168" end1="169" start2="270" end2="270" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
+        <range start1="183" end1="184" start2="284" end2="285" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="185" end1="185" start2="286" end2="302" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+      </ranges>
+    </file>
     <file path="$PROJECT_DIR$/src/LogicPanel.java">
       <ranges>
         <range start1="2" end1="2" start2="2" end2="4" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
@@ -46,48 +77,27 @@
         <range start1="5" end1="6" start2="10" end2="14" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
         <range start1="9" end1="12" start2="17" end2="17" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
         <range start1="14" end1="15" start2="19" end2="20" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="18" end1="18" start2="23" end2="24" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="19" end1="26" start2="25" end2="27" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="28" end1="29" start2="29" end2="30" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="31" end1="33" start2="32" end2="33" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="34" end1="34" start2="34" end2="36" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="35" end1="36" start2="37" end2="38" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="41" end1="42" start2="43" end2="56" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="43" end1="44" start2="57" end2="64" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="45" end1="46" start2="65" end2="66" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="48" end1="49" start2="68" end2="69" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="50" end1="52" start2="70" end2="72" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="58" end1="59" start2="78" end2="104" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="65" end1="70" start2="110" end2="118" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="71" end1="71" start2="119" end2="120" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="84" end1="84" start2="133" end2="169" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="85" end1="90" start2="170" end2="175" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="91" end1="92" start2="176" end2="177" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="94" end1="95" start2="179" end2="180" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="96" end1="100" start2="181" end2="185" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
-        <range start1="104" end1="104" start2="189" end2="200" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/LogicGame.java">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="3" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="6" end1="6" start2="8" end2="11" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="7" end1="8" start2="12" end2="14" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="9" end1="10" start2="15" end2="15" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="11" end1="12" start2="16" end2="71" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="14" end1="16" start2="73" end2="77" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
-        <range start1="20" end1="21" start2="81" end2="82" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="22" end1="26" start2="83" end2="89" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="28" end1="29" start2="91" end2="98" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="32" end1="32" start2="101" end2="102" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="33" end1="34" start2="103" end2="104" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="122" end1="123" start2="192" end2="193" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="124" end1="125" start2="194" end2="195" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="126" end1="127" start2="196" end2="197" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="131" end1="131" start2="201" end2="204" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="133" end1="133" start2="206" end2="210" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="135" end1="136" start2="212" end2="241" changelist="876763f1-0e49-4946-bcb3-20bafe1b3fd7" />
-        <range start1="139" end1="140" start2="244" end2="245" changelist="3aa6448d-43e8-4af7-8ac5-d522dab6cc7d" />
+        <range start1="18" end1="18" start2="23" end2="25" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="19" end1="26" start2="26" end2="28" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="28" end1="29" start2="30" end2="31" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="31" end1="33" start2="33" end2="34" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="34" end1="34" start2="35" end2="37" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="35" end1="36" start2="38" end2="39" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="41" end1="42" start2="44" end2="57" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="43" end1="44" start2="58" end2="65" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="45" end1="46" start2="66" end2="67" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="48" end1="49" start2="69" end2="70" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="50" end1="52" start2="71" end2="73" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="58" end1="59" start2="79" end2="85" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="60" end1="60" start2="86" end2="110" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="65" end1="70" start2="115" end2="123" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="71" end1="71" start2="124" end2="125" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="84" end1="84" start2="138" end2="193" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="85" end1="90" start2="194" end2="199" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="91" end1="92" start2="200" end2="201" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
+        <range start1="94" end1="95" start2="203" end2="204" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="96" end1="100" start2="205" end2="209" changelist="c44ac4be-d0cb-4462-ab23-433de2b3a733" />
+        <range start1="104" end1="104" start2="213" end2="224" changelist="186d5202-73cf-47fe-a1f4-6f35df273867" />
       </ranges>
     </file>
   </component>
@@ -169,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676844921577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Coding Day 5">
+      <created>1676948319590</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676948319590</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +208,9 @@
     <MESSAGE value="Changes by Katherine" />
     <MESSAGE value="Coding Day 2" />
     <MESSAGE value="Coding Day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding Day 4" />
+    <MESSAGE value="Coding Day 5" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
